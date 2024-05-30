@@ -8,8 +8,8 @@ class ChatProvider extends ChangeNotifier{
   final getYesNoAnswer = GetYesNoAnswer();
 
   List<Message> messageList = [
-    Message(text: 'Hola mundo', fromWho: FromWho.me),
-    Message(text: 'Hola mundo?', fromWho: FromWho.me),
+    Message(text: 'Puedo ver tu futuro, y puedes preguntarme algo, pero solo te diré "Si" o "No".', fromWho: FromWho.me),
+    Message(text: 'Es importante terminar en signo de interrogación, Ej: Seré en el futuro rico?', fromWho: FromWho.me),
   ];
 
   Future<void> sendMessage(String text) async {

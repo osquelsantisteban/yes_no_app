@@ -12,10 +12,10 @@ class ChatScreen extends StatelessWidget {
         leading: const Padding(
           padding: EdgeInsets.symmetric(horizontal: 10),
           child: CircleAvatar(
-            backgroundImage: NetworkImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbx-Pnc-4gD942BYlG3nImvgpnyliYBu2P1w&s'),
+            backgroundImage: NetworkImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdV3sDiuH5WWS0ymRHQPwH663-F_72eUT9zA&s'),
           ),
         ),
-        title: const Text('Mi app'),
+        title: const Text('Mi Adivinador App'),
         centerTitle: true,
       ),
       body: const ChatView(),
